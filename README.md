@@ -43,3 +43,12 @@ Tableau de bord interactif pour suivre les dépôts, retraits et analyser ses fi
 ## Voir en ligne
 
 Vous pouvez voir la version en ligne [ici](https://finance-local-app.vercel.app/).
+
+
+## Contribuer
+
+Vous pouvez contribuer au projet en suivant ces instructions:
+
+1. Cloner le repository : `git clone https://github.com/DevDhomm/FLAD.git`
+2. Installer les dependencies : `pnpm install`
+3. Lancer l'app : `pnpm tauri dev`
