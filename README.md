@@ -1,7 +1,39 @@
-# Tauri + React
+# 📊 Dashboard de Gestion Financière
 
-This template should help get you started developing with Tauri and React in Vite.
+Tableau de bord interactif pour suivre les dépôts, retraits et analyser ses finances personnelles.
 
-## Recommended IDE Setup
+## 🚀 Fonctionnalités
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- **Gestion des transactions** :
+  - Ajout de dépôts/retraits
+  - Suppression de transactions
+  - Historique complet
+- **Statistiques en temps réel** :
+  - Solde calculé automatiquement
+  - Nombre total de transactions
+  - Sommes cumulées par type
+- **Visualisations graphiques** :
+  - Camembert des flux financiers (Chart.js)
+  - Courbe d'évolution journalière
+- **Persistance des données** :
+  - Stockage local (localStorage)
+  - Mise à jour instantanée des graphiques
+
+## 📦 Dépendances
+
+```bash
+# Core
+react
+chart.js
+react-chartjs-2
+```
+
+## 🎨 UI/UX Features
+- **Feedback visuel** :
+    - Couleurs conditionnelles (vert/rouge) selon le type de transaction
+    - Surbrillance au survol
+- **Micro-interactions** :
+    - Animation des graphiques
+    - Bouton "Ajouter" avec effet hover
+- **Design responsive** :
+    - Adapté aux écrans mobiles et desktop
