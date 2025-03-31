@@ -19,14 +19,13 @@ Tableau de bord interactif pour suivre les dépôts, retraits et analyser ses fi
   - Stockage local (localStorage)
   - Mise à jour instantanée des graphiques
 
-## 📦 Dépendances
 
-```bash
-# Core
-react
-chart.js
-react-chartjs-2
-```
+## 🚀 Technologies utilisées
+
+* [Next.js](https://nextjs.org/)
+* [Tauri](https://v2.tauri.app/)
+* [Chart.js](https://www.chartjs.org/)
+
 
 ## 🎨 UI/UX Features
 - **Feedback visuel** :
@@ -35,5 +34,12 @@ react-chartjs-2
 - **Micro-interactions** :
     - Animation des graphiques
     - Bouton "Ajouter" avec effet hover
-- **Design responsive** :
-    - Adapté aux écrans mobiles et desktop
+ 
+## 👨‍💻 Auteurs
+
+* [DevDhomm](https://github.com/DevDhomm)
+
+
+## Voir en ligne
+
+Vous pouvez voir la version en ligne [ici](https://finance-local-app.vercel.app/).
